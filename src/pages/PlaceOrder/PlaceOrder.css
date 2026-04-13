@@ -1,0 +1,79 @@
+.place-order {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  margin: 50px 0;
+  flex-wrap: wrap;
+}
+
+
+.place-order-left {
+  flex: 1;
+  min-width: 300px;
+}
+
+.place-order-right {
+  flex: 1;
+  min-width: 300px;
+}
+
+
+.title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+
+.place-order input {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #c5c5c5;
+  border-radius: 4px;
+  outline: none;
+}
+
+/* DOUBLE INPUT ROW */
+.multi-fields {
+  display: flex;
+  gap: 10px;
+}
+
+
+.cart-total {
+  border: 1px solid #e2e2e2;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.cart-total-details {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+
+.cart-total button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 20px;
+  border: none;
+  background-color: tomato;
+  color: white;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.cart-total button:hover {
+  background-color: #ff6347;
+}
+
+
+@media (max-width: 768px) {
+  .place-order {
+    flex-direction: column;
+  }
+}
