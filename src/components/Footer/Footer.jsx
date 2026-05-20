@@ -10,14 +10,7 @@ const Footer = () => {
 
 
         <div className="footer-content-left">
-          <img src={assets.logo} alt="logo" />
-
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Cupiditate id quo mollitia nobis harum itaque suscipit quidem
-            ipsam dicta? Dolorum facilis explicabo quis vitae nostrum
-            impedit dolor modi rem at!
-          </p>
+          
 
           <div className="footer-social-icons">
             <img src={assets.facebook_icon} alt="facebook" />
@@ -41,8 +34,8 @@ const Footer = () => {
         <div className="footer-content-right">
           <h2>GET IN TOUCH</h2>
           <ul>
-            <li>+233-243254482</li>
-            <li>masada@gmail.com</li>
+            <li>+233 20 222 2089</li>
+            <li>bigbite@gmail.com</li>
           </ul>
         </div>
 
@@ -51,7 +44,7 @@ const Footer = () => {
       <hr />
 
       <p className="footer-copyright">
-        Copyright 2026 Masada.com - All Rights Reserved.
+        Copyright 2026 BigBite.com - All Rights Reserved.
       </p>
 
     </div>
